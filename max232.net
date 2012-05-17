@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Чтв 17 Май 2012 23:16:04
+# EESchema Netlist Version 1.1 created  Чтв 17 Май 2012 23:30:32
 (
  ( /4FB29469 SM1210 C1 CP1
   ( 1 N-000019 )
@@ -20,7 +20,7 @@
   ( 1 VCC )
   ( 2 GND )
  )
- ( /4FB29625 DB9MD J1 DB9
+ ( /4FB29625 DB9FD J1 DB9
   ( 1 ? )
   ( 2 N-000023 )
   ( 3 N-000024 )
@@ -31,7 +31,7 @@
   ( 8 ? )
   ( 9 ? )
  )
- ( /4FB29890 DB9MD J2 DB9
+ ( /4FB29890 DB9FD J2 DB9
   ( 1 ? )
   ( 2 N-000008 )
   ( 3 N-000018 )

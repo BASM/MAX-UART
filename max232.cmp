@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Чтв 17 Май 2012 23:16:04
+
+BeginCmp
+TimeStamp = /4FB29469;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB29495;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB29553;
+Reference = C3;
+ValeurCmp = CP1;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB29575;
+Reference = C4;
+ValeurCmp = CP1;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB2951F;
+Reference = C5;
+ValeurCmp = CP1;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB29625;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9MD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB29890;
+Reference = J2;
+ValeurCmp = DB9;
+IdModule  = DB9MD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB29647;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB2983C;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FB293D7;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = SO16E;
+EndCmp
+
+EndListe

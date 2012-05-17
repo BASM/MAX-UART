@@ -1,0 +1,105 @@
+# EESchema Netlist Version 1.1 created  Чтв 17 Май 2012 23:16:04
+(
+ ( /4FB29469 SM1210 C1 CP1
+  ( 1 N-000019 )
+  ( 2 N-000017 )
+ )
+ ( /4FB29495 SM1210 C2 CP1
+  ( 1 N-000027 )
+  ( 2 N-000028 )
+ )
+ ( /4FB29553 SM1210 C3 CP1
+  ( 1 N-000016 )
+  ( 2 VCC )
+ )
+ ( /4FB29575 SM1210 C4 CP1
+  ( 1 VCC )
+  ( 2 N-000025 )
+ )
+ ( /4FB2951F SM1210 C5 CP1
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4FB29625 DB9MD J1 DB9
+  ( 1 ? )
+  ( 2 N-000023 )
+  ( 3 N-000024 )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+ )
+ ( /4FB29890 DB9MD J2 DB9
+  ( 1 ? )
+  ( 2 N-000008 )
+  ( 3 N-000018 )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+ )
+ ( /4FB29647 SIL-4 P1 CONN_4
+  ( 1 GND )
+  ( 2 N-000022 )
+  ( 3 N-000021 )
+  ( 4 VCC )
+ )
+ ( /4FB2983C SIL-4 P2 CONN_4
+  ( 1 GND )
+  ( 2 N-000020 )
+  ( 3 N-000015 )
+  ( 4 VCC )
+ )
+ ( /4FB293D7 SO16E U1 MAX232
+  ( 1 N-000019 )
+  ( 2 N-000016 )
+  ( 3 N-000017 )
+  ( 4 N-000027 )
+  ( 5 N-000028 )
+  ( 6 N-000025 )
+  ( 7 N-000018 )
+  ( 8 N-000008 )
+  ( 9 N-000020 )
+  ( 10 N-000015 )
+  ( 11 N-000021 )
+  ( 12 N-000022 )
+  ( 13 N-000023 )
+  ( 14 N-000024 )
+  ( 15 GND )
+  ( 16 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component J1
+ DB9*
+$endlist
+$component J2
+ DB9*
+$endlist
+$endfootprintlist
+}

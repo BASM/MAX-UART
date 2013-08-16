@@ -1,85 +1,91 @@
-# EESchema Netlist Version 1.1 created  Чтв 17 Май 2012 23:30:32
+# EESchema Netlist Version 1.1 created  Чт. 15 авг. 2013 22:17:10
 (
- ( /4FB29469 SM1210 C1 CP1
-  ( 1 N-000019 )
-  ( 2 N-000017 )
+ ( /520D162B $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000015 )
  )
- ( /4FB29495 SM1210 C2 CP1
-  ( 1 N-000027 )
-  ( 2 N-000028 )
+ ( /520D1627 $noname  P3 CONN_1 {Lib=CONN_1}
+  (    1 N-000014 )
  )
- ( /4FB29553 SM1210 C3 CP1
-  ( 1 N-000016 )
-  ( 2 VCC )
+ ( /520D1626 $noname  P5 CONN_1 {Lib=CONN_1}
+  (    1 N-000023 )
  )
- ( /4FB29575 SM1210 C4 CP1
-  ( 1 VCC )
-  ( 2 N-000025 )
+ ( /520D1653 $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 N-000012 )
  )
- ( /4FB2951F SM1210 C5 CP1
-  ( 1 VCC )
-  ( 2 GND )
+ ( /520D160A $noname  P1 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 VCC )
+  (    3 /TD_ )
+  (    4 /RD_ )
+  (    5 N-000007 )
+  (    6 N-000008 )
  )
- ( /4FB29625 DB9FD J1 DB9
-  ( 1 ? )
-  ( 2 N-000023 )
-  ( 3 N-000024 )
-  ( 4 ? )
-  ( 5 GND )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
+ ( /520D1566 $noname  Q2 MOSFET_N {Lib=MOSFET_N}
+  (    D N-000008 )
+  (    G N-000024 )
+  (    S GND )
  )
- ( /4FB29890 DB9FD J2 DB9
-  ( 1 ? )
-  ( 2 N-000008 )
-  ( 3 N-000018 )
-  ( 4 ? )
-  ( 5 GND )
-  ( 6 ? )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
+ ( /00000000 $noname  Q1 MOSFET_N {Lib=MOSFET_N}
+  (    D N-000007 )
+  (    G N-000005 )
+  (    S GND )
  )
- ( /4FB29647 SIL-4 P1 CONN_4
-  ( 1 GND )
-  ( 2 N-000022 )
-  ( 3 N-000021 )
-  ( 4 VCC )
+ ( /4FB29625 $noname  J1 DB9 {Lib=DB9}
+  (    1 ? )
+  (    2 /RD )
+  (    3 /TD )
+  (    4 N-000005 )
+  (    5 GND )
+  (    6 ? )
+  (    7 N-000024 )
+  (    8 ? )
+  (    9 ? )
  )
- ( /4FB2983C SIL-4 P2 CONN_4
-  ( 1 GND )
-  ( 2 N-000020 )
-  ( 3 N-000015 )
-  ( 4 VCC )
+ ( /4FB29575 $noname  C4 CP1 {Lib=CP1}
+  (    1 VCC )
+  (    2 N-000018 )
  )
- ( /4FB293D7 SO16E U1 MAX232
-  ( 1 N-000019 )
-  ( 2 N-000016 )
-  ( 3 N-000017 )
-  ( 4 N-000027 )
-  ( 5 N-000028 )
-  ( 6 N-000025 )
-  ( 7 N-000018 )
-  ( 8 N-000008 )
-  ( 9 N-000020 )
-  ( 10 N-000015 )
-  ( 11 N-000021 )
-  ( 12 N-000022 )
-  ( 13 N-000023 )
-  ( 14 N-000024 )
-  ( 15 GND )
-  ( 16 VCC )
+ ( /4FB29553 $noname  C3 CP1 {Lib=CP1}
+  (    1 N-000019 )
+  (    2 VCC )
+ )
+ ( /4FB2951F $noname  C5 CP1 {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /4FB29495 $noname  C2 CP1 {Lib=CP1}
+  (    1 N-000020 )
+  (    2 N-000021 )
+ )
+ ( /4FB29469 $noname  C1 CP1 {Lib=CP1}
+  (    1 N-000013 )
+  (    2 N-000011 )
+ )
+ ( /4FB293D7 $noname  U1 MAX232 {Lib=MAX232}
+  (    1 N-000013 )
+  (    2 N-000019 )
+  (    3 N-000011 )
+  (    4 N-000020 )
+  (    5 N-000021 )
+  (    6 N-000018 )
+  (    7 N-000012 )
+  (    8 N-000023 )
+  (    9 N-000014 )
+  (   10 N-000015 )
+  (   11 /TD_ )
+  (   12 /RD_ )
+  (   13 /TD )
+  (   14 /RD )
+  (   15 GND )
+  (   16 VCC )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- CP*
- SM*
+$component J1
+ DB9*
 $endlist
-$component C2
+$component C4
  CP*
  SM*
 $endlist
@@ -87,19 +93,87 @@ $component C3
  CP*
  SM*
 $endlist
-$component C4
- CP*
- SM*
-$endlist
 $component C5
  CP*
  SM*
 $endlist
-$component J1
- DB9*
+$component C2
+ CP*
+ SM*
 $endlist
-$component J2
- DB9*
+$component C1
+ CP*
+ SM*
 $endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 5 "" ""
+ Q1 G
+ J1 4
+Net 6 "GND" "GND"
+ U1 15
+ P1 1
+ C5 2
+ J1 5
+ Q2 S
+ Q1 S
+Net 7 "" ""
+ Q1 D
+ P1 5
+Net 8 "" ""
+ P1 6
+ Q2 D
+Net 9 "/TD" "TD"
+ U1 13
+ J1 3
+Net 10 "VCC" "VCC"
+ P1 2
+ U1 16
+ C3 2
+ C4 1
+ C5 1
+Net 11 "" ""
+ C1 2
+ U1 3
+Net 12 "" ""
+ U1 7
+ P4 1
+Net 13 "" ""
+ C1 1
+ U1 1
+Net 14 "" ""
+ U1 9
+ P3 1
+Net 15 "" ""
+ U1 10
+ P2 1
+Net 16 "/TD_" "TD_"
+ P1 3
+ U1 11
+Net 17 "/RD" "RD"
+ J1 2
+ U1 14
+Net 18 "" ""
+ C4 2
+ U1 6
+Net 19 "" ""
+ U1 2
+ C3 1
+Net 20 "" ""
+ U1 4
+ C2 1
+Net 21 "" ""
+ C2 2
+ U1 5
+Net 22 "/RD_" "RD_"
+ P1 4
+ U1 12
+Net 23 "" ""
+ U1 8
+ P5 1
+Net 24 "" ""
+ Q2 G
+ J1 7
+}
+#End

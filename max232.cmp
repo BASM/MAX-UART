@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2010-04-21 BZR 23xx)-stable date = Чтв 17 Май 2012 23:30:32
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-stable date = Чт. 15 авг. 2013 22:10:39
 
 BeginCmp
 TimeStamp = /4FB29469;
@@ -43,24 +43,52 @@ IdModule  = DB9FD;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FB29890;
-Reference = J2;
-ValeurCmp = DB9;
-IdModule  = DB9FD;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FB29647;
+TimeStamp = /520D160A;
 Reference = P1;
-ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FB2983C;
+TimeStamp = /520D162B;
 Reference = P2;
-ValeurCmp = CONN_4;
-IdModule  = SIL-4;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520D1627;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520D1653;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /520D1626;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /00000000;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /520D1566;
+Reference = Q2;
+ValeurCmp = MOSFET_N;
+IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp

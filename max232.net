@@ -1,53 +1,53 @@
-# EESchema Netlist Version 1.1 created  Чт. 15 авг. 2013 22:17:10
+# EESchema Netlist Version 1.1 created  Чт 05 сен 2013 11:55:19
 (
  ( /520D162B $noname  P2 CONN_1 {Lib=CONN_1}
-  (    1 N-000015 )
+  (    1 N-000016 )
  )
  ( /520D1627 $noname  P3 CONN_1 {Lib=CONN_1}
-  (    1 N-000014 )
- )
- ( /520D1626 $noname  P5 CONN_1 {Lib=CONN_1}
   (    1 N-000023 )
  )
- ( /520D1653 $noname  P4 CONN_1 {Lib=CONN_1}
+ ( /520D1626 $noname  P5 CONN_1 {Lib=CONN_1}
   (    1 N-000012 )
+ )
+ ( /520D1653 $noname  P4 CONN_1 {Lib=CONN_1}
+  (    1 N-000024 )
  )
  ( /520D160A $noname  P1 CONN_6 {Lib=CONN_6}
   (    1 GND )
   (    2 VCC )
   (    3 /TD_ )
   (    4 /RD_ )
-  (    5 N-000007 )
-  (    6 N-000008 )
+  (    5 N-000006 )
+  (    6 N-000007 )
  )
  ( /520D1566 $noname  Q2 MOSFET_N {Lib=MOSFET_N}
-  (    D N-000008 )
-  (    G N-000024 )
+  (    D N-000007 )
+  (    G N-000018 )
   (    S GND )
  )
  ( /00000000 $noname  Q1 MOSFET_N {Lib=MOSFET_N}
-  (    D N-000007 )
-  (    G N-000005 )
+  (    D N-000006 )
+  (    G N-000008 )
   (    S GND )
  )
  ( /4FB29625 $noname  J1 DB9 {Lib=DB9}
   (    1 ? )
   (    2 /RD )
   (    3 /TD )
-  (    4 N-000005 )
+  (    4 N-000008 )
   (    5 GND )
   (    6 ? )
-  (    7 N-000024 )
+  (    7 N-000018 )
   (    8 ? )
   (    9 ? )
  )
  ( /4FB29575 $noname  C4 CP1 {Lib=CP1}
-  (    1 VCC )
-  (    2 N-000018 )
+  (    1 GND )
+  (    2 N-000019 )
  )
  ( /4FB29553 $noname  C3 CP1 {Lib=CP1}
-  (    1 N-000019 )
-  (    2 VCC )
+  (    1 N-000013 )
+  (    2 GND )
  )
  ( /4FB2951F $noname  C5 CP1 {Lib=CP1}
   (    1 VCC )
@@ -58,20 +58,20 @@
   (    2 N-000021 )
  )
  ( /4FB29469 $noname  C1 CP1 {Lib=CP1}
-  (    1 N-000013 )
-  (    2 N-000011 )
+  (    1 N-000015 )
+  (    2 N-000014 )
  )
  ( /4FB293D7 $noname  U1 MAX232 {Lib=MAX232}
-  (    1 N-000013 )
-  (    2 N-000019 )
-  (    3 N-000011 )
+  (    1 N-000015 )
+  (    2 N-000013 )
+  (    3 N-000014 )
   (    4 N-000020 )
   (    5 N-000021 )
-  (    6 N-000018 )
-  (    7 N-000012 )
-  (    8 N-000023 )
-  (    9 N-000014 )
-  (   10 N-000015 )
+  (    6 N-000019 )
+  (    7 N-000024 )
+  (    8 N-000012 )
+  (    9 N-000023 )
+  (   10 N-000016 )
   (   11 /TD_ )
   (   12 /RD_ )
   (   13 /TD )
@@ -108,61 +108,61 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 5 "" ""
- Q1 G
+Net 5 "/RD" "RD"
+ U1 14
+ J1 2
+Net 6 "" ""
+ Q1 D
+ P1 5
+Net 7 "" ""
+ P1 6
+ Q2 D
+Net 8 "" ""
  J1 4
-Net 6 "GND" "GND"
- U1 15
+ Q1 G
+Net 9 "/TD_" "TD_"
+ U1 11
+ P1 3
+Net 10 "VCC" "VCC"
+ U1 16
+ C5 1
+ P1 2
+Net 11 "GND" "GND"
  P1 1
- C5 2
  J1 5
  Q2 S
  Q1 S
-Net 7 "" ""
- Q1 D
- P1 5
-Net 8 "" ""
- P1 6
- Q2 D
-Net 9 "/TD" "TD"
- U1 13
- J1 3
-Net 10 "VCC" "VCC"
- P1 2
- U1 16
+ U1 15
  C3 2
  C4 1
- C5 1
-Net 11 "" ""
- C1 2
- U1 3
+ C5 2
 Net 12 "" ""
- U1 7
- P4 1
+ U1 8
+ P5 1
 Net 13 "" ""
+ C3 1
+ U1 2
+Net 14 "" ""
+ U1 3
+ C1 2
+Net 15 "" ""
  C1 1
  U1 1
-Net 14 "" ""
- U1 9
- P3 1
-Net 15 "" ""
- U1 10
+Net 16 "" ""
  P2 1
-Net 16 "/TD_" "TD_"
- P1 3
- U1 11
-Net 17 "/RD" "RD"
- J1 2
- U1 14
+ U1 10
+Net 17 "/TD" "TD"
+ U1 13
+ J1 3
 Net 18 "" ""
- C4 2
- U1 6
+ Q2 G
+ J1 7
 Net 19 "" ""
- U1 2
- C3 1
+ U1 6
+ C4 2
 Net 20 "" ""
- U1 4
  C2 1
+ U1 4
 Net 21 "" ""
  C2 2
  U1 5
@@ -170,10 +170,10 @@ Net 22 "/RD_" "RD_"
  P1 4
  U1 12
 Net 23 "" ""
- U1 8
- P5 1
+ U1 9
+ P3 1
 Net 24 "" ""
- Q2 G
- J1 7
+ U1 7
+ P4 1
 }
 #End
